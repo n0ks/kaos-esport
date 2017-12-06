@@ -158,13 +158,24 @@ header #logoheader {
 	max-width: 95%;
 	margin: 0 auto;
 }
-
+#stream > p{
+	font-size: 1.2em;
+	padding-bottom: 2em;
+}
 #stream {
 	background-color: #4d338b;
+	padding: .5em;
+	display: flex;
+	align-items: initial;
+	justify-content: center;
+	flex-direction: column;
 }
-
+#twitch-embed{
+	display: flex;
+	align-items: baseline;
+}
 .wrapper img {
-	max-width: 85%;
+	max-width: 100%;
 	display: block;
 	margin: 0 auto;
 }
@@ -172,22 +183,14 @@ header #logoheader {
 .news-wrapper {
 	border-radius: .35em;
 	text-align: center;
-	padding: 1em;
-	background: #171f26;
+	/* padding: .3em; */
+	background: #112233;
 	color: #fff;
-	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 .news-wrapper iframe {
 	min-width: 280px;
-}
-
-.news-wrapper p:first-child {
-	font-weight: bold;
-}
-
-.news-content {
-	padding: 2em 0;
 }
 
 .news-content span {
@@ -197,6 +200,14 @@ header #logoheader {
 
 .news-content h1 {
 	font-size: 1.5em;
+}
+
+.news-content-box {
+	border: 1px solid rgba(0, 0, 0, 0.288);
+	padding: 1em;
+	color: #000;
+	background: #F0F1F5;
+	width: 100%;
 }
 
 .nested {

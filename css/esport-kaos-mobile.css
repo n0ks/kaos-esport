@@ -39,7 +39,7 @@
 
     /*Smartphone*/
 
-    @media only screen and (max-width: 655px) {
+    @media only screen and (max-width: 880px) {
     	.wrapper {
     		grid-template-columns: 1fr;
     		grid-gap: .5em;
