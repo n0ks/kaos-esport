@@ -158,10 +158,12 @@ header #logoheader {
 	max-width: 95%;
 	margin: 0 auto;
 }
-#stream > p{
+
+#stream>p {
 	font-size: 1.2em;
 	padding-bottom: 2em;
 }
+
 #stream {
 	background-color: #4d338b;
 	padding: .5em;
@@ -170,10 +172,12 @@ header #logoheader {
 	justify-content: center;
 	flex-direction: column;
 }
-#twitch-embed{
+
+#twitch-embed {
 	display: flex;
 	align-items: baseline;
 }
+
 .wrapper img {
 	max-width: 100%;
 	display: block;
