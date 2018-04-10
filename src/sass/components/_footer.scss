@@ -1,0 +1,146 @@
+footer .row {
+	margin-left: 0px;
+	font-family: 'Open Sans';
+	width: 100%;
+	font-weight: bolder;
+	font-size: 1em;
+}
+
+footer .row p {
+	line-height: 50px;
+	margin-bottom: 0px;
+}
+
+footer .row-claro {
+	height: 220px;
+	background-color: #171F26;
+	border-top: #0b2641 1px solid;
+	margin-top: 5em;
+}
+
+footer .row-escuro {
+	height: 50px;
+	background-color: #11171D;
+}
+
+footer .logotipo {
+	width: 150px;
+	margin-top: 10px;
+	left: -10%;
+}
+
+footer .col-novidades,
+footer .col-links,
+footer .col-contato {
+	margin-top: 40px;
+}
+
+footer .row-cols h4 {
+	font-family: 'Open Sans';
+	color: #fff;
+	font-size: 1em;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #383845;
+}
+
+footer .row-cols h5 {
+	color: #666;
+	font-family: monospace;
+	font-size: 1em;
+	margin: 7px;
+}
+
+footer .col-links a {
+	color: #d6d6d6;
+	font-family: monospace;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+footer .col-links .fa {
+	margin: 0 5px;
+	color: #9B9B9B;
+}
+
+footer .redes-sociais a {
+	color: #9B9B9B;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: #9B9B9B 1px solid;
+	border-radius: 15px;
+	text-align: center;
+	float: left;
+}
+
+footer .redes-sociais i {
+	font-size: 1em;
+	margin: 7px auto;
+}
+
+footer .redes-sociais span {
+	font-family: monospace;
+	font-size: 1em;
+	line-height: 30px;
+	margin-left: 7px;
+	color: darkgray;
+	text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+	footer .logotipo {
+		display: none;
+	}
+	footer .col-novidades,
+	footer .col-links,
+	footer .col-contato {
+		margin: 10px 10px 10px 40px;
+		left: -40px;
+		width: 100%;
+	}
+	footer .row {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	footer {
+		margin-top: 10px;
+	}
+	.copy-mobile p {
+		font-size: .7em;
+	}
+	footer .row p {
+		line-height: 30px;
+		margin-top: 10px;
+	}
+
+	footer .redes-sociais {
+		position: absolute;
+		width: 80%;
+		left: 10%;
+	}
+	footer .redes-sociais span {
+		font-size: .8em;
+		margin-left: 7px;
+		line-height: 40px;
+	}
+	footer .redes-sociais a {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+	footer .redes-sociais i {
+		font-size: 1.8em;
+	}
+	footer .row-claro {
+		height: 140px;
+	}
+	footer .row {
+		display: block;
+	}
+	footer .col-novidades,
+	footer .col-links {
+		display: none;
+	}
+}

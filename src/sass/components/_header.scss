@@ -1,0 +1,116 @@
+#banner {
+	background-position: center;
+}
+
+header #logoheader {
+	width: 165px;
+}
+
+header {
+	width: 100%;
+	height: 120px;
+	background: rgba(26, 26, 26, 0.2);
+	position: relative;
+	z-index: 2;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+header .container {
+	position: relative;
+	/* top: 35px; */
+}
+
+header #logoheader {
+	position: absolute;
+	top: 0px;
+	width: 180px;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 880px) {
+	header #logoheader {
+		display: none;
+	}
+	header .header-black {
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		z-index: 6;
+	}
+	header {
+		height: 40px;
+		position: fixed;
+	}
+	header.abrir-menu #menu {
+		left: 0;
+	}
+	header #menu {
+		left: -80%;
+		position: fixed;
+		background: #1a1a1a;
+		width: 60%;
+		height: 768px;
+		transition: all .2s;
+	}
+	header.abrir-menu #menu-sombra {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, .5);
+		top: 0;
+		left: 0;
+		transition: .4s;
+		z-index: -1;
+	}
+	header.abrir-menu #logoheader {
+		display: none;
+	}
+	header.abrir-menu #menu {
+		/* text-align: center; */
+		/* display: inline-block; */
+		width: auto;
+	}
+	header.abrir-menu #menu ul li {
+		border-bottom: rgba(255, 255, 255, .5) 1px solid;
+		width: 100%;
+		text-align: center;
+	}
+	header.abrir-menu #menu li a {
+		color: #FFF;
+		font-size: 16px;
+		font-weight: bold;
+		padding: 10px 0px;
+		display: block;
+	}
+	header.abrir-menu .fechar {
+		position: absolute;
+		bottom: 38px;
+		height: 50px;
+		background-color: #404040;
+		width: 100%;
+	}
+	header.abrir-menu .fechar .btn-fechar {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 20px;
+	}
+	header #procura-mobile {
+		width: 80%;
+		height: 40px;
+		top: -150px;
+		left: 20%;
+		position: fixed;
+		border: none;
+		outline: 0;
+		background-color: #000;
+		color: #fff;
+		transition: .2s;
+	}
+	header.abrir-procura #procura-mobile {
+		top: 0;
+	}
+	header.abrir-procura #logoheader {
+		z-index: 1;
+	}
+}

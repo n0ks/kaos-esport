@@ -1,0 +1,63 @@
+#banner {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: url("/assets/img/banner_kaos01.jpg")no-repeat fixed;
+	background-size: cover;
+	z-index: -5;
+	top: -120px;
+}
+.banner-info h1 {
+	font-family: 'Khand', sans-serif;
+	font-weight: bold;
+	font-size: 3.5em;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.banner-info {
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	width: 100%;
+}
+
+.banner-info #descript {
+	font-size: 1.5em;
+	font-family: 'Khand', sans-serif;
+	font-weight: bold;
+	color: #fac800;
+	letter-spacing: 1px;
+	margin: 0;
+	line-height: 0px;
+}
+
+// .after-banner {
+// 	background-color: rgba(0, 0, 0, 0.25);
+// 	position: absolute;
+// 	left: 0;
+// 	top: 0;
+// 	width: 100%;
+// 	height: 100%;
+// }
+
+
+@media only screen and (max-width: 880px) {
+	.banner-info {
+		top: 65%;
+	}
+	.banner-info h1 {
+		font-size: 2em;
+	}
+	.banner-info #descript {
+		font-size: 1em;
+		letter-spacing: 1px;
+	}
+	.banner-info p {
+		font-size: 0.9em;
+	}
+}

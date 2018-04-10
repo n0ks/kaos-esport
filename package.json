@@ -1,0 +1,37 @@
+{
+  "name": "kaos-esport",
+  "version": "1.1.1",
+  "description": "Site kaos esport",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0ks/kaos-esport.git"
+  },
+  "keywords": [
+    "kaos",
+    "esport",
+    "site"
+  ],
+  "author": "Rodrigo Martins de Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0ks/kaos-esport/issues"
+  },
+  "homepage": "https://github.com/n0ks/kaos-esport#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.0",
+    "gulp-uglify-es": "^1.0.1"
+  }
+}
